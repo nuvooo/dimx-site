@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de" data-lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support — DIMX</title>
+  <meta name="description" content="Hilfe und Kontakt zur DIMX App. Help and contact for the DIMX app.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="lang.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="DIMX icon">DIMX</a>
+    <nav class="links">
+      <a href="privacy.html" lang-de>Datenschutz</a>
+      <a href="privacy.html" lang-en>Privacy</a>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="de" onclick="setLang('de')">DE</button>
+        <button type="button" data-lang="en" onclick="setLang('en')">EN</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap legal">
+
+  <!-- ── Deutsch ─────────────────────────────────────────── -->
+  <div lang-de>
+    <h1>Support</h1>
+    <p class="updated">Wir helfen gern — meist antworten wir innerhalb von 1–2 Werktagen.</p>
+
+    <div class="box">
+      <p><strong>Kontakt:</strong>
+      <a href="mailto:sebastian.angelone@googlemail.com?subject=DIMX%20Support">sebastian.angelone@googlemail.com</a></p>
+      <p>Bitte beschreibe kurz dein Gerät (z.&nbsp;B. iPad Pro, iOS-Version), was du erwartet hast
+      und was stattdessen passiert ist. Screenshots helfen enorm.</p>
+    </div>
+
+    <h2>Häufige Fragen</h2>
+
+    <h2 style="font-size:1.05rem">Meine Lampen reagieren nicht — was prüfe ich zuerst?</h2>
+    <ul>
+      <li>Ist dein Gerät im selben (W)LAN wie dein Art-Net-Node?</li>
+      <li>Stimmen Universum und Startadresse im Patch mit dem Node und den Lampen überein?</li>
+      <li>Ist das Universum in den Einstellungen aktiviert und der DMX-Status oben rechts grün?</li>
+      <li>Steht der Master auf 0 oder ist Blackout aktiv? Beides hält die Ausgabe an.</li>
+    </ul>
+
+    <h2 style="font-size:1.05rem">Wie viele Universen kann ich nutzen?</h2>
+    <p>Kostenlos startest du zum Ausprobieren; per In-App-Kauf schaltest du 1, 2, 4 oder 8
+    volle Universen (512–4096 Kanäle) dauerhaft frei — einmalig, kein Abo.</p>
+
+    <h2 style="font-size:1.05rem">Wie funktioniert die Beat-Erkennung?</h2>
+    <p>Aktiviere sie im Tempo-Bereich und erlaube den Mikrofonzugriff. Die App hört den Takt
+    und treibt damit die Geschwindigkeit deiner Effekte. Das Audio wird nur lokal analysiert,
+    nie aufgezeichnet.</p>
+
+    <h2 style="font-size:1.05rem">Mein Gerät fehlt in der Bibliothek.</h2>
+    <p>Über den Fixture-Editor legst du eigene Profile an. Schick uns gern Hersteller und
+    Modell — vieles lässt sich in einer der nächsten Versionen ergänzen.</p>
+
+    <h2>Fehler melden</h2>
+    <p>Schreib uns eine E-Mail mit den Schritten, die zum Fehler führen. Je genauer die
+    Beschreibung, desto schneller die Lösung.</p>
+  </div>
+
+  <!-- ── English ─────────────────────────────────────────── -->
+  <div lang-en>
+    <h1>Support</h1>
+    <p class="updated">Happy to help — we usually reply within 1–2 business days.</p>
+
+    <div class="box">
+      <p><strong>Contact:</strong>
+      <a href="mailto:sebastian.angelone@googlemail.com?subject=DIMX%20Support">sebastian.angelone@googlemail.com</a></p>
+      <p>Please briefly describe your device (e.g. iPad Pro, iOS version), what you expected
+      and what happened instead. Screenshots help a lot.</p>
+    </div>
+
+    <h2>Frequently asked questions</h2>
+
+    <h2 style="font-size:1.05rem">My lights don't respond — what should I check first?</h2>
+    <ul>
+      <li>Is your device on the same (Wi-Fi) network as your Art-Net node?</li>
+      <li>Do universe and start address in the patch match the node and the fixtures?</li>
+      <li>Is the universe enabled in settings, and is the DMX status in the top right green?</li>
+      <li>Is the master at 0, or is blackout engaged? Either stops the output.</li>
+    </ul>
+
+    <h2 style="font-size:1.05rem">How many universes can I use?</h2>
+    <p>You start free to try things out; in-app purchases permanently unlock 1, 2, 4 or 8 full
+    universes (512–4096 channels) — one-time, no subscription.</p>
+
+    <h2 style="font-size:1.05rem">How does beat detection work?</h2>
+    <p>Enable it in the tempo section and allow microphone access. The app listens for the beat
+    and drives your effect speed with it. Audio is analysed locally only, never recorded.</p>
+
+    <h2 style="font-size:1.05rem">My fixture is missing from the library.</h2>
+    <p>Use the fixture editor to create your own profiles. Feel free to send us make and model —
+    many can be added in one of the next releases.</p>
+
+    <h2>Reporting a bug</h2>
+    <p>Email us the steps that lead to the problem. The more precise the description, the faster
+    the fix.</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-links">
+      <a href="index.html" lang-de>Startseite</a>
+      <a href="index.html" lang-en>Home</a>
+      <a href="privacy.html" lang-de>Datenschutz</a>
+      <a href="privacy.html" lang-en>Privacy Policy</a>
+    </div>
+    <span class="copyright">© 2026 Sebastian Angelone</span>
+  </div>
+</footer>
+
+</body>
+</html>
